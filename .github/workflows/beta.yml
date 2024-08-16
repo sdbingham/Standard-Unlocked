@@ -1,10 +1,13 @@
 name: Upload Beta Release
 on:
-  push:
+  pull_request:
     branches:
       - "main"
-    paths:
-      - 'force-app/**' # Only generate a new package if the package contents have been changed.
+    # Only generate a new package if the contents of the following directories have been changed.
+    paths: 
+      - 'force-app/**' 
+      - 'unpackaged/**'
+      - 'datasets/**'
 jobs:
   upload-beta:
     uses: nimba-actions/standard-workflows/.github/workflows/beta-unlocked.yml@main
