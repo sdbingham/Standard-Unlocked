@@ -1,4 +1,9 @@
-name: Upload Beta Release
+# This workflow generates a new Beta Package Version and installs it into a Validation Org.
+# It also generates a corresponding Github Release and Tag.
+# Beta Package Versions can only be installed into scratch orgs and sandboxes.
+# To enable it for production installation you need to run the `Beta (Unlocked) - Promote` workflow.
+
+name: Beta - Create (Unlocked)
 on:
   pull_request:
     branches:
