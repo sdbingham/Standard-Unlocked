@@ -15,7 +15,7 @@ We strongly advocate adhering to a "Release Train" development methodology for S
 
 1. Fork this repository.
 2. Make a _new_ Repository in your organization and select your fork as the `Repository Template`
-3. Modify the `Project Name` and `Package Name` fields in [cumulusci.yml instructions](cumulusci.yml)^see note^
+3. Modify the `Project Name` and `Package Name` fields in [cumulusci.yml instructions](cumulusci.yml)<sup>see note</sup>
 4. Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#initial-setup) to configure the included CICD for this project.
 
 > [!NOTE]
