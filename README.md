@@ -19,7 +19,7 @@ We strongly advocate adhering to a "Release Train" development methodology for S
 4. Follow the [`Initial Setup` instructions](https://github.com/Nimba-Solutions/Standard-Unlocked/blob/main/.github/workflows/README.md#initial-setup) to configure the included CICD for this project.
 
 > [!NOTE]
-> 1. As you explore this project, you may notice a large number of tokens such as     `__PROJECT_LABEL__` and `__PROJECT_NAME__`. These correspond to the `name_managed` and `name` attributes in [cumulusci.yml](cumulusci.yml) and will be automatically replaced by the values specified in Step 3 whenever you build scratch orgs or run CI automations. 
+> 1. As you explore this project, you may notice a large number of tokens such as     `__PROJECT_LABEL__` and `__PROJECT_NAME__`. These correspond to the `name_managed` and `name` attributes in [cumulusci.yml](cumulusci.yml), and will be automatically exchanged with the correct values when running CCI commands.
 
 ## Development
 
